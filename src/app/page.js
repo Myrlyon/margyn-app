@@ -25,11 +25,9 @@ export default function Home() {
 ⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠉⠠⢏⡁⢸⢇⠄⢆⠔⡸
 ⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⢤⣆⣂⡹⠸⣀⣃⡫⠞⠁`}
           </pre>
-          <div className="flex flex-col gap-4 pt-8 italic">
-            <div className="text-3xl text-outline">
-              margyn <span className="text-sm">x marlen satriani</span>
-            </div>
-            <div className="font-sans text-sm ">eng & idn</div>
+          <div className="flex flex-col gap-3 pt-12 italic">
+            <div className="text-3xl text-outline">margyn</div>
+            <div className="text-sm ">eng & idn</div>
             <div className="text-sm ">programmer, music lover, and reader</div>
           </div>
         </div>
@@ -38,7 +36,7 @@ export default function Home() {
         <div className="grid gap-10 sm:grid-cols-2">
           {/* Projects */}
           <div className="flex flex-col gap-4">
-            <h2 className="text-xl font-bold">Projects</h2>
+            <h2 className="text-xl font-bold">projects</h2>
 
             <div className="space-y-3">
               <div>
@@ -55,7 +53,7 @@ export default function Home() {
 
           {/* Works */}
           <div className="flex flex-col gap-4 sm:items-end">
-            <h2 className="text-xl font-bold">Works</h2>
+            <h2 className="text-xl font-bold">works</h2>
 
             <div className="space-y-3">
               <div>
@@ -76,13 +74,19 @@ export default function Home() {
             href="https://github.com/Myrlyon"
             className="underline cursor-pointer underline-offset-2 hover:text-yellow-200"
           >
-            Github
+            github
+          </a>
+          <a
+            href="mailto:marlendotedots@gmail.com"
+            className="underline cursor-pointer underline-offset-2 hover:text-yellow-200"
+          >
+            email
           </a>
           <a
             href="https://x.com/maeurion"
             className="underline cursor-pointer underline-offset-2 hover:text-yellow-200"
           >
-            X or Twitter
+            x or twtr
           </a>
         </div>
       </div>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #001570;
   --foreground: #E8B904;
@@ -65,4 +69,34 @@ body::before {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #001570;
+  /* background color */
+}
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background: #E8B904;
+  /* scrollbar color */
+  border-radius: 6px;
+}
+
+/* Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cfa103;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #E8B904 #001570;
+  /* thumb track */
 }
